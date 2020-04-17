@@ -1,0 +1,42 @@
+/*The major part before css_three is revolved around the idea of CSS "selectors"
+Selectors in general are used to target HTML elements that we want to style
+
+used: select HTML elements by their tag
+what it: want to select subsets? or a single element?
+
+- "id" to target single elements
+- "classes" to target groups of elements
+- combinations of selector tags*/
+
+/*tell css a class using dot "." */
+.firstDiv{
+	color: blue;
+}
+
+.secondDiv{
+	color:red;
+}
+
+/*class can tag to multiple elements, while id tags to single element*/
+#singledout{
+	color: green;
+	text-decoration: line-through;
+}
+
+/* "*'' can be used to access all the element except id*/
+/**{
+	color: gray;
+}*/
+
+h3 + ul{
+	border: 4px dotted purple;
+}
+
+li a{
+	color: red;
+}
+
+li a[href="http://www.facebook.com"]{
+	color: blue;
+	border: 3px solid orange;
+}

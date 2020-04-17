@@ -1,0 +1,99 @@
+<!-- level two -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms</title>
+</head>
+
+<!-- varitous types of inputs for forms,
+	and use them to accept user input
+	forms will be a key component of Djago -->
+<body>
+	<form>
+		<h1>Log In</h1>
+		<h2>Pls enter your email and password</h2>
+
+		<input type="email" name="useremail" value="Email Here">
+		<input type="password" name="password" value="">
+		<input type="submit" name="" value="clike me"> <!-- submit and clear -->
+	</form>
+<!-- some form has its own restriction -->
+	<form>
+		<h1>choose color</h1>
+		<h2>click on button</h2>
+		<input type="color" name="" value="">
+	</form>
+
+</body>
+
+
+
+<!-- connect input tags with two features: actions and labels -->
+<!--The use of the label tag will allow you to add labels in front of an input in your HTML form. -->
+<body>
+	<form action="https://www.facebook.com" method="get">
+		<p> Take me to FB</p>
+		<input type="text" name="userinput">
+		<input type="submit" name="" value="SUBMIT">
+	</form>
+	<!-- Using a label with for -->
+	<!-- repeating -->
+	<form>
+		<label>
+			Enter Text:
+			<input type="text" name="" value="block one">
+		</label>
+		<label>
+			Enter Text:
+			<input type="text" name="" value="block two">
+		</label>
+	</form>
+	<!-- use for -->
+	<form>
+		<label for="userinput">Enter input:</label>
+		<input id = "userinput" type="text" name="" placeholder="your input here" required>
+	</form>
+	<!-- required: you must input something in it-->
+	<form>
+		<input type="text" name="" placeholder="not required">
+		<input type="text" name="" placeholder="required" required>
+		<input type="submit" name="" value="Sbumit">
+	</form>
+</body>
+</html>
+
+<!-- continue exploring the variety of input methods for forms, such as:
+- Radio Button (Linked)
+- Drop Down Menus
+- Text Area Inputs -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hotel Feedback</title>
+</head>
+<body>
+	<h1>Hotel FeedbackForm</h1>
+	<form method="get">
+		<input type="radio" name="" value=""> <!-- you can only clik once -->
+		<h3>Are you from inside or ouside the US?</h3>
+		<!-- group radio buttons with the same name -->
+		<label for="inusa">Inside:</label>
+		<input id="inusa" type="radio" name="loc" value="inside">
+
+		<label for="outusa">Outside:</label>
+		<input id="outusa" type="radio" name="loc" value="outside">
+		
+		<h2>How was your service?</h2>
+		<!-- a drop down menu with select and option -->
+		<select name="stars">
+			<option value="Great">3</option>
+			<option value="Okay">2</option>
+			<option value="Bad">1</option>
+		</select>
+		<!-- have some "value" name on the backend but show something else on the front -->
+		<h2>Any othe feedback?</h2>
+		<textarea name="mytext" rows="8" cols="80"></textarea>
+		<input type="submit" name="" value="Sbumit">
+	</form>
+</body>
+</html>

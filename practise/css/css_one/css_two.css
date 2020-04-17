@@ -1,0 +1,25 @@
+/*backgroud or background-color*/
+body{
+	background: url(https://cdn.mos.cms.futurecdn.net/qWRNTdErRRidiwWoT5dvj-650-80.jpg);
+	/*background: gray;*/
+	background-repeat: repeat;
+}
+
+
+/*border width, style and color should come together*/
+div{
+	background-color: blue;
+	border-color: orange;
+	/*you can specify your own thin, like 10px*/
+	border-width: 5px;
+	border-style: double;
+}
+
+p{
+	color: yellow;
+}
+
+span{
+	background: red;
+	color: white;
+}

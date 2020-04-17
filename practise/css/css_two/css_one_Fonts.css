@@ -1,0 +1,45 @@
+/*learning about Fonts and the Box Model
+
+we will learn about font properties with CSS, such as size,weight, text alignment, etc.
+
+We will also learn how to download and change fonts.
+*/
+
+/*exploring a few links:
+
+- OS support for certain fonts
+- Downloading fonts
+
++ CSS Font Stack: show the percentage of different fonts used on iOS and Win;
++ download: Google Font, font library
+*/
+
+h1{
+	/*font-family: cursive;*/
+	font-family: "Arial";
+}
+
+p{
+	font-family: monospace;
+}
+
+body{
+	font-size: 20px; 
+	/*not that common*/
+}
+/*1em = 16px
+2em = 32px*/
+
+#two{
+	font-size: 1.0em;
+	font-family: 'Indie Flower', cursive;
+}
+
+p{
+	font-style: italic;
+	font-weight: lighter;
+}
+
+h1{
+	text-align: center;
+}

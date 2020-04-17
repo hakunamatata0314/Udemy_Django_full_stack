@@ -1,0 +1,18 @@
+/*In this lecture we will briefly cover a CSS topic called “specificity”
+Specificity defines the hierarchy of CSS styling, and what type of tags overrule others.*/
+
+li{
+	color:red;
+}
+
+.topitems{
+	color: blue;
+}
+
+#two{
+	border: 3px solid black;
+}
+
+/*read more:
+1. MDN: Specificity
+2. design shack: What the Heck is CSS Specificity?*/
